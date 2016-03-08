@@ -10,6 +10,231 @@
 .sidebar-closed #sidebar {
     margin-left: -180px;
 }
+/*-----------------------------------*/
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F2F2F2;
+    padding: 0;
+}
+#container {
+    width: 100%;
+    height: 100%;
+}
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
 
-/*Escribe aqui tu codigo */
+/*------------------------Header y sidebar--------------------*/
+header {
+    font-size: 16px;
+    padding: 15px 10px;
+    border-bottom: 1px solid #2C3544;
+    position: fixed;
+    z-index: 110;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+}
+.sidebar-toggle-box { 
+    background-color: #424A5D;
+    float: left;
+    margin-right: 10px;
+}
+.tooltips {
+    color: white;
+}
+.logo, .logo:focus {
+    color: white;
+}
+.logo:hover {
+    color: #E26EAB;
+}
+.nav {
+    list-style: none;
+}
+/*.top-menu {
+    float: left;
+}*/
+.top-menu .nav {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+}
+.logout {
+    background-color: #9C4C9D;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+    float: right;
+}
+.logout:hover, .logout:focus {
+    background-color: #9C4C9D !important;
+    color: white;
+    box-shadow: 0 0 5px gray;
+}
+#sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #424A5D;
+    color: white;
+    position: fixed;
+    top: 52px;
+    z-index: 10;
+    padding-top: 15px;
+}
+#sidebar h5 {
+    color: white;
+    font-size: 12px;
+}
 
+#sidebar ul {
+    padding-left: 0;
+}
+.sub-menu {
+    list-style: none;
+    padding: 5px 10px;
+}
+.sub-menu .active {
+    background-color: #9C4C9D;
+}
+.sub-menu .active i, .active span {
+    color: white;
+}
+
+.sub-menu a {
+    color: #989898;
+    width: 100%;
+    display: block;
+    font-size: 11px;
+    padding: 15px 0 15px 10px;
+}
+.sub-menu a:hover {
+    background-color: #E26EAB;
+    color: white;
+}
+.sub-menu i {
+    margin-right: 5px;
+}
+/*------------------------Main-content-------------------*/
+#main-content {
+    margin-top: 55px;
+    margin-left: 200px;
+}
+.wrapper {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+}
+.wrapper>h3 {
+    color: gray;
+}
+
+/*----------------------Login-----------------------*/
+.form-login {
+    background-color: white;
+    width: 300px;
+    border-radius: 4px;
+    margin: 100px auto;
+}
+.form-login-heading {
+    background-color: #68DFF0;
+    color: white;
+    padding: 20px 30px;
+    margin: auto;
+    border-radius: 4px 4px 0 0;
+    font-size: 16px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+}
+.login-wrap {
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 11px;
+    font-weight: 400;
+    color: gray;
+}
+.login-wrap input {
+    margin: auto;
+    font-size: 12px;
+}
+.login-wrap span a {
+    font-weight: 400;
+}
+.login-wrap button {
+    color: gray;
+}
+.registration {
+    text-align: center;
+    padding: 10px 0;
+}
+
+/*----------------------Gallery----------------------*/
+.mt {
+    margin-top: 30px;
+}
+.project-wrapper {
+    margin: 5px auto;
+}
+.project:hover .photo-wrapper {
+    background-image: url(http://3.bp.blogspot.com/-N7EZN9mixeU/UDrTegxlr4I/AAAAAAAAM2c/lxPJDn8iAqg/s1600/Adventure-Time-adventure-time-with-finn-and-jake-31251865-1224-792.jpeg);
+    background-repeat:no-repeat;
+	background-position:center;
+	background-size: cover;
+	position: relative;
+	top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.project:hover .photo a img {
+    opacity: 0.1;
+}
+/*---------------------Progress----------------------*/
+.showback {
+    background-color: white;
+    color: gray;
+    margin: 10px auto 15px;
+    padding: 20px 15px;
+    box-shadow: 0 3px 5px #989898;
+}
+
+/*-------------------------Basic-tables-------------------*/
+.content-panel {
+    background-color: white;
+    color: gray;
+    margin: 10px auto;
+    padding: 10px 0;
+    box-shadow: 0 3px 5px #989898;
+}
+.content-panel h4 {
+    margin-left: 10px;
+}
+
+/*---------------------Form-----------------------*/
+.form-panel {
+	background: white;
+	color: gray;
+	margin: 10px auto;
+	padding: 10px;
+    box-shadow: 0 3px 5px #989898;
+}
+.form-panel .control-label{
+	text-align: left;
+}
+#focusedInput {
+    border: 1px solid red;
+    box-shadow: none;
+}
+
+/*---------------------Buttons---------------------*/
+.btn {
+    padding: 5px 10px;
+}
+
+/*--------------------------------------------*/
