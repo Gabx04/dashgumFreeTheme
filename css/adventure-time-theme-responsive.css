@@ -1,1 +1,20 @@
-/*Inserta tu Codigo Responsive*/
+@media (max-width: 768px) {
+    #sidebar {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        z-index: 100;
+        position: absolute;
+    }
+    section #main-content {
+        margin-top: 55px;
+        margin-left: 15px !important;
+}
+    .photo-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .img-responsive {
+        width: 100%;
+    }
+}
